@@ -17,6 +17,14 @@
 
 #### 项目
 
+**[metric-platform](https://github.com/daijiaobu0306/metric-platform)**　`Java · Vue 3`
+
+企业级指标体系管理平台（技术展示版）。指标定义 → 数据采集 → 阈值告警 → 工单流转 → 问题闭环，全链路打通。
+
+- 后端 14 个业务模块的模块化单体，Spring Boot 3.2 + JPA + Flyway
+- 迁移守卫：非白名单历史迁移一律拒绝启动，宁可失败也不带病运行
+- 会话鉴权：自定义 filter + 会话落库，多端登录与强制下线
+
 **[mcp-servers](https://github.com/daijiaobu0306/mcp-servers)**　`Python`
 
 两个 MCP 服务端，让 AI Agent 能操作 Linux 主机和 MySQL 数据库，同时把破坏性能力在代码层封死。
